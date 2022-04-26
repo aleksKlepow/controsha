@@ -1012,3 +1012,12 @@ footer .right-section li:hover a::after {
     padding: 40px 10px;
   }
 }
+
+@media (max-height: 700px) {
+  .header-section-wrap {
+    height: auto;
+  }
+  .header-section #NextIcon {
+    display: none;
+  }
+}
